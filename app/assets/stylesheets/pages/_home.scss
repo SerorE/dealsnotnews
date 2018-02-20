@@ -1,1 +1,101 @@
 // Specific CSS for your home-page
+body{
+    margin: 0px 40vh;
+    text-align: center;
+     background-color: #F2F2F2;
+}
+
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: #F2F2F2;
+}
+
+.card_infos{
+  font-weight:lighter;
+  display: flex;
+    flex-direction: row;
+    // color:grey;
+    font-size: 20px;
+
+    background-color: #F2F2F2;
+    margin-bottom: 20px;
+    height: 30px;
+        text-align:center;
+  border-style: solid;
+  border-width:1px;
+  border-color:#00C9B1;
+
+}
+.card-time{
+  font-size:20px;
+  width:60px;
+  height:60px;
+  padding: 10px;
+  margin-top:2px;
+  padding-top: 12px;
+  text-align:center;
+  color:#00C9B1;
+  border-style: solid;
+  border-radius: 50%;
+ border-style: solid;
+  border-width:1px;
+  border-radius: 50%;
+  border-color:#00C9B1;
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.card_info{
+// margin: 0px 35px;
+
+
+// color:red;
+}
+
+.detail{
+      margin: 0px 10px;
+      background-color: rgb(80,80,80);
+color: white;
+font-weight:lighter;
+}
+
+.sub-title{
+      font-weight: lighter;
+      color: #00C9B1;
+      font-size:25px;
+      letter-spacing: 3px;
+}
+.card-white {
+  background: white;
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 4px;
+padding-top: 15px;
+padding-right: 50px;
+padding-bottom: 50px;
+padding-left: 50px;
+  margin-top:20px;
+position: relative;
+border:solid;
+border-width: 1px;
+border-color: #00C9B1;
+}
+
+.box_footer_card {
+   display: inline-block;
+     box-shadow: 1px 1px 2px #e7e7e7;
+    background-color: #F2F2F2;
+         position: absolute;
+  bottom: 10px;
+    left: 10px;
+    padding: 2px 5px;
+    color: #333644;
+    font-weight:lighter;
+}
+
+.footer_card {
+}
+
+
