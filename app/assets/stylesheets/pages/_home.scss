@@ -9,6 +9,10 @@ body{
   margin: 0px 25vw;
 }
 
+.category-title{
+font-size:25px;
+font-weight:bolder;
+}
 
 .deal-card{
   // height: 50vw;
@@ -23,7 +27,12 @@ border-color: black;
     .overview{
 grid-row: 1/ span 1;
 grid-column: 1/ span 2;
-background-color: red;
+// background-color: white;
+// background-image: asset-data-url("Overview1.png");
+    // background-size: contain;
+    //     background-repeat: no-repeat;
+    //     background-image-opacity: 0.5;
+
     }
     .picture{
 grid-row: 1/ span 1;
@@ -62,9 +71,6 @@ background-color: grey;
 
 }
 
-#logo{
-height:100px;
-}
 .header{
   position: sticky;
   top: 0;
