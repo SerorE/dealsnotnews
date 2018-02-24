@@ -3,38 +3,45 @@ body{
   text-align: left;
 }
 
+.deal-card-mobile{
+width: 75vw;
+background-color:red;
+}
 .deals_wrapper{
   margin: 0px 25vw;
 }
 
+//small screen sizes
+@media (max-width: 991px) {
+    .mobile-only {
+        display:block !important;
+    }
+
+    .desktop-only {
+        display:none !important;
+    }
+}
+
 .index{
   position: absolute;
-    //   position: -webkit-sticky;  // required for Safari
-    // position: sticky;
-        position: fixed;
+  position: fixed;
   top:200px;
   left:60px;
   height : 17vw;
   width: 14vw;
   background-color: white;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-
 }
 
 .vote{
   position: absolute;
-    //   position: -webkit-sticky;  // required for Safari
-    // position: sticky;
         position: fixed;
   top:200px;
   right:60px;
   height : 17vw;
   width: 14vw;
-
   background-color: transparent;
-    cursor: pointer;
-
-
+  cursor: pointer;
   &:hover #arrows{
 background-image: -webkit-linear-gradient(bottom, #EA4C4C 50%, #0E9577 50%);
       border-radius: 25px;
@@ -45,11 +52,26 @@ width:100%;
 // float:down;
 }
 }
+.mobile{
 
+}
  .category-title{
   text-align:center;
   font-size:25px;
   font-weight:bolder;
+
+  }
+
+
+  .deal-title{
+  font-weight:bolder;
+  font-size: 25px;
+  }
+
+
+  .highlight{
+  color: #00C9B1;
+  font-weight: bolder;
   }
 
 
@@ -66,10 +88,7 @@ width:100%;
   grid-template-columns: 33% 33% 34%;
   grid-template-rows: 30% 35% 35%;
 
-  .deal-title{
-  font-weight:bolder;
-  font-size: 25px;
-  }
+
 
   .deal-detail {
   padding: 10px;
@@ -77,26 +96,11 @@ width:100%;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
   }
 
-  .highlight{
-  color: #00C9B1;
-  font-weight: bolder;
-  }
 
 
   .overview{
   grid-row: 1/ span 1;
   grid-column: 1/ span 2;
-  }
-
-  .picture{
-grid-row: 1/ span 1;
-grid-column: 3/ span 1;
-
-    img{
-    max-height: 100%;
-    max-width:100%;
-  float: right;
-    }
   }
 
   .team{
@@ -123,6 +127,17 @@ grid-row: 3/ span 1;
 grid-column: 2/ span 1;
   }
 }
+
+  .picture{
+grid-row: 1/ span 1;
+grid-column: 3/ span 1;
+
+    img{
+    max-height: 100%;
+    max-width:100%;
+  float: right;
+    }
+  }
 
 
 // .box_footer_card {

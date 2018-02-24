@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  overview: MyString
+  market: MyString
+  metrics: MyString
+  strategy: MyString
+  edge: MyString
+  team: MyString
+  votes_up: 1
+  votes_down: 1
+  creation_date: 2018-02-24
+
+two:
+  name: MyString
+  overview: MyString
+  market: MyString
+  metrics: MyString
+  strategy: MyString
+  edge: MyString
+  team: MyString
+  votes_up: 1
+  votes_down: 1
+  creation_date: 2018-02-24
