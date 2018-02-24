@@ -1,0 +1,40 @@
+
+.footer-links a {
+  color: white;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer {
+    // font-family: Satisfy;
+  // background: $card-grey;
+  background:  #00C9B1;
+margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0px 50px;
+  // color: rgba(0,0,0,0.3);
+  color: white;
+
+  font-size: 20px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-links a:hover {
+  color: #750800;
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.footer-title{
+    font-size: 30px !important;
+}

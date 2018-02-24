@@ -14,12 +14,19 @@
 height: 70px;
 }
 
+#add{
+  position: absolute;
+  top:20px;
+  right:200px;
+  height:40px;
+  cursor: pointer;
+}
+
 .about-section{
 cursor: pointer;
 color:black;
-
+// color: #00C9B1;
   .title{
-  font-style: italic;
   position: absolute;
   font-size:20px;
   top: 15px;
@@ -36,13 +43,11 @@ color:black;
 }
 /* Basic navbar item */
 .navbar-wagon-item {
-  // cursor: pointer;
   padding: 0 20px;
 }
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
   font-size: 25px;
 }
 
@@ -54,7 +59,7 @@ color:black;
   background-color:white;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
   display: none;
-  color: rgb(150,150,150);
+  // color: rgb(150,150,150);
   font-size: 20px;
   margin-top: 10px;
   padding: 5px;
