@@ -36,7 +36,7 @@ body{
 
 
   &:hover #arrows{
-background-image: -webkit-linear-gradient(bottom, red 50%, green 50%);
+background-image: -webkit-linear-gradient(bottom, #EA4C4C 50%, #0E9577 50%);
       border-radius: 25px;
 }
   // background-color: linear-gradient(bottom, #FFD51A 50%, #FAC815 50%);
@@ -93,7 +93,8 @@ grid-row: 1/ span 1;
 grid-column: 3/ span 1;
 
     img{
-  height: 100%;
+    max-height: 100%;
+    max-width:100%;
   float: right;
     }
   }
